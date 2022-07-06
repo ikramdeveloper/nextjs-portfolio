@@ -15,7 +15,9 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who am I?</h2>
-          <p className="py-2 text-gray-600">I'm not your usual developer</p>
+          <p className="py-2 text-gray-600">
+            I&apos;m not your usual developer
+          </p>
 
           <p className="py-2 text-gray-600">
             I have spent the last 12 years in the fire service working as a
