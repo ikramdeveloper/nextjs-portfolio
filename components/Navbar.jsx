@@ -23,16 +23,14 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleShadow);
-
-    return window.removeEventListener("scroll", handleShadow);
   }, []);
 
   return (
     <nav
       className={
         isShadow
-          ? "shadow-xl ease-in-out duration-300 fixed w-full h-20 z-50 bg-gray-100"
-          : "fixed w-full h-20 z-50 bg-gray-100"
+          ? "shadow-xl  ease-in-out duration-300 fixed w-full h-20 z-50 bg-[#ecf0f3]"
+          : "fixed w-full h-20 z-50 bg-[#ecf0f3]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
